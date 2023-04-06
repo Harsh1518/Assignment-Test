@@ -1,0 +1,65 @@
+#navbar{
+    display: flex;
+    height: 80px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#lnav{
+width: 60%;
+}
+
+#rnav{
+    display: flex;
+    width: 40%;
+    justify-content: end;
+    justify-content: space-between;
+    }
+
+#secdiv{
+    border: 1px solid red;
+    height: 300px;
+    margin-top: 20px;
+    display: grid;
+}
+
+#seccdiv{
+    display: grid;
+    border: 1px solid blue;
+    padding: 25px;
+    width: 35%;
+    margin-left: 35%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#thsecdiv{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+#thirddiv{
+text-align: center;
+height: 100px;
+margin-top: 80px;
+padding: 25px;
+}
+
+.card{
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding: 25px;
+}
+
+.cardb{
+    width: 30%;
+}
+
+#thirdc2div{
+    display: grid;
+    grid-template-columns: repeat(3,550px);
+    grid-template-rows: repeat(3,550px);
+}
